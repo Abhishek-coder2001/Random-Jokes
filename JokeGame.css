@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg,grey,whitesmoke);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    height: max-content;
+    border: 1px solid black;
+    margin-top: 18%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #ba0bca, 0 0 30px #ca0bb4,
+    0 0 40px #ca0bb0, 0 0 50px #ca0bc0;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+    background: radial-gradient(black,navy);
+
+}
+#button{
+    padding: 23px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 18px;
+    background: yellow;
+}
+#button:hover{
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+    0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+  background: #729fa8;
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border-radius: 38px;
+}
+
+#button i{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#output{
+    margin-top: 30px;
+    color: white;
+    transition-duration: 1s;
+    margin-bottom: 10px;
+}
+#output:hover{
+    color: greenyellow;
+}
+h1{
+    color: transparent;
+    padding: 30px;
+    /* font-size: 50px; */
+    font-weight: 3500;
+    -webkit-text-stroke: 1px #ffffff;
+}
+h1:hover{
+    color: pink;
+}
+h1 i{
+    margin: 8px;
+}
+h1 i:hover{
+    color: yellow;
+}
+
+
+@media screen and (max-width:400px) {
+    .container{
+        width: 380px;
+        height: max-content;
+        border: 1px solid black;
+        margin-top: 18%;
+        border-radius: 10px;
+        box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #ba0bca, 0 0 30px #ca0bb4,
+        0 0 40px #ca0bb0, 0 0 50px #ca0bc0;
+      -webkit-animation: blink 0.7s infinite alternate;
+      animation: blink 0.7s infinite alternate;
+        background: radial-gradient(black,navy);
+    }
+}
+
